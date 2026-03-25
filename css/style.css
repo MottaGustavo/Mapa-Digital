@@ -46,6 +46,7 @@ body {
     background-position: center;
     overflow: hidden;
     height: 100vh;
+    align-items: center;
 }
 
 #PaginaInicial {
@@ -64,6 +65,7 @@ body {
     margin-top: 10px;
 
 }
+
 h2 {
     font-size: 0.8rem;
     color: #f5f5f5;
@@ -74,38 +76,55 @@ h2 {
 #titulo {
     width: 100%;
     font-size: 1.5rem;
-    margin: 30px 0 30px 0 ;
+    margin: 30px 0 30px 0;
 }
+
 h1 {
     font-size: 3rem;
     color: #f5f5f5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
- #mapa {
+#mapa {
     width: 40vw;
     height: auto;
 }
+
 #mapa img {
-    
+
     width: 100%;
     height: 100%;
-border-radius: 5px;
+    border-radius: 5px;
 }
 
 
 @media (max-width: 768px) {
 
- #mapa {
-    width: 80vw;
-    height: auto;
-}
-#mapa img {
-    
-    width: 100%;
-    height: 100%;
-border-radius: 5px;
-}
+    #loading img {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #mapa {
+        width: 80vw;
+        height: auto;
+    }
+
+    #mapa img {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    #botaoVerMapa {
+        padding: 9px 40px;
+
+
+    }
 
 }
 
@@ -121,12 +140,12 @@ border-radius: 5px;
 }
 
 h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 #botaoVerMapa:hover {
-background-color: #f5f5f5 ;
-color: #ab1c21;
-border: 2px solid #ab1c21;
+    background-color: #f5f5f5;
+    color: #ab1c21;
+    border: 2px solid #ab1c21;
 }
